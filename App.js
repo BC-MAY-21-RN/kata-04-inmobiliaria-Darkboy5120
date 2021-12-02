@@ -32,7 +32,16 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-const House = ({data}): Node => {
+const IconItem = ({children}) => {
+  return (
+    <View style={styles.row}>
+      <Text style={styles.genericIcon}>icon</Text>
+      <Text style={styles.bold}>{children}</Text>
+    </View>
+  );
+};
+
+const House = ({data}) => {
   const switchFavorite = () => {
     console.log(123);
   };
@@ -47,18 +56,9 @@ const House = ({data}): Node => {
           <Text>{data.direccion}</Text>
         </View>
         <View style={styles.row}>
-          <View style={styles.row}>
-            <Text style={styles.genericIcon}>icon</Text>
-            <Text style={styles.bold}>{data.nhabitantes}</Text>
-          </View>
-          <View style={styles.row}>
-            <Text style={styles.genericIcon}>icon</Text>
-            <Text style={styles.bold}>{data.nbaños}</Text>
-          </View>
-          <View style={styles.row}>
-            <Text style={styles.genericIcon}>icon</Text>
-            <Text style={styles.bold}>{data.superficie} ft</Text>
-          </View>
+          <IconItem>{data.nhabitantes}</IconItem>
+          <IconItem>{data.nbaños}</IconItem>
+          <IconItem>{data.superficie} ft</IconItem>
         </View>
         <View style={[styles.row, styles.spaceAround]}>
           <Text style={styles.houseMontly}>${data.costemensual}/m</Text>
@@ -69,9 +69,9 @@ const House = ({data}): Node => {
       </View>
     </View>
   );
-}
+};
 
-const App: () => Node = () => {
+const App = () => {
   const renderHouse = ({item}) => <House data={item} />;
 
   return (
