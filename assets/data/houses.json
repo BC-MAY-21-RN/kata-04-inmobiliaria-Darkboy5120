@@ -1,0 +1,57 @@
+[
+    {
+        "id" : "asdasnd4ansd",
+        "nombre" : "casa0",
+        "direccion" : "dir0",
+        "nhabitantes" : "5",
+        "nbaños" : "2",
+        "superficie" : "240",
+        "costemensual" : "200",
+        "calificacion" : "9",
+        "esfavorito" : "0"
+    },
+    {
+        "id" : "asddnslansdk",
+        "nombre" : "casa1",
+        "direccion" : "dir1",
+        "nhabitantes" : "4",
+        "nbaños" : "1",
+        "superficie" : "180",
+        "costemensual" : "150",
+        "calificacion" : "7",
+        "esfavorito" : "0"
+    },
+    {
+        "id" : "asddns4a5sdk",
+        "nombre" : "casa1",
+        "direccion" : "dir1",
+        "nhabitantes" : "4",
+        "nbaños" : "1",
+        "superficie" : "180",
+        "costemensual" : "150",
+        "calificacion" : "7",
+        "esfavorito" : "0"
+    },
+    {
+        "id" : "asddns4a4sdk",
+        "nombre" : "casa1",
+        "direccion" : "dir1",
+        "nhabitantes" : "4",
+        "nbaños" : "1",
+        "superficie" : "180",
+        "costemensual" : "150",
+        "calificacion" : "7",
+        "esfavorito" : "0"
+    },
+    {
+        "id" : "asdd4sla4sdk",
+        "nombre" : "casa1",
+        "direccion" : "dir1",
+        "nhabitantes" : "4",
+        "nbaños" : "1",
+        "superficie" : "180",
+        "costemensual" : "150",
+        "calificacion" : "7",
+        "esfavorito" : "0"
+    }
+]
