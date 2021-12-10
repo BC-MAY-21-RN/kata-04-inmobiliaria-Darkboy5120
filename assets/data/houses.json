@@ -8,7 +8,7 @@
         "superficie" : "240",
         "costemensual" : "200",
         "calificacion" : "9",
-        "esfavorito" : "0"
+        "esfavorito" : false
     },
     {
         "id" : "asddnslansdk",
@@ -19,39 +19,39 @@
         "superficie" : "180",
         "costemensual" : "150",
         "calificacion" : "7",
-        "esfavorito" : "0"
+        "esfavorito" : true
     },
     {
         "id" : "asddns4a5sdk",
-        "nombre" : "casa1",
-        "direccion" : "dir1",
-        "nhabitantes" : "4",
-        "nbaños" : "1",
-        "superficie" : "180",
-        "costemensual" : "150",
-        "calificacion" : "7",
-        "esfavorito" : "0"
+        "nombre" : "casa2",
+        "direccion" : "dir2",
+        "nhabitantes" : "6",
+        "nbaños" : "4",
+        "superficie" : "160",
+        "costemensual" : "1230",
+        "calificacion" : "8",
+        "esfavorito" : true
     },
     {
         "id" : "asddns4a4sdk",
-        "nombre" : "casa1",
+        "nombre" : "casa3",
         "direccion" : "dir1",
         "nhabitantes" : "4",
         "nbaños" : "1",
         "superficie" : "180",
         "costemensual" : "150",
         "calificacion" : "7",
-        "esfavorito" : "0"
+        "esfavorito" : false
     },
     {
         "id" : "asdd4sla4sdk",
-        "nombre" : "casa1",
+        "nombre" : "casa4",
         "direccion" : "dir1",
         "nhabitantes" : "4",
         "nbaños" : "1",
         "superficie" : "180",
         "costemensual" : "150",
         "calificacion" : "7",
-        "esfavorito" : "0"
+        "esfavorito" : false
     }
 ]

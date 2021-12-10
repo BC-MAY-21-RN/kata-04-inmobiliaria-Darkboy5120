@@ -8,10 +8,6 @@
 
 import React from 'react';
 import HousesList from '../components/HousesList';
-//import HousesImages from './assets/components/houses_images';
-//import Icon from 'react-native-ionicons';
-//import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
-//import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 import {SafeAreaView, StyleSheet} from 'react-native';
 

@@ -3,7 +3,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '11.0'
 
-target 'foo' do
+target 'test' do
   config = use_native_modules!
 
   use_react_native!(
@@ -12,9 +12,9 @@ target 'foo' do
     :hermes_enabled => false
   )
 
-  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
-  target 'fooTests' do
+  target 'testTests' do
     inherit! :complete
     # Pods for testing
   end

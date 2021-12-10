@@ -45,22 +45,40 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: 'black',
   },
+  iconRow: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  spaceBetween: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
   genericIcon: {
-    color: 'gray',
     marginRight: 10,
   },
   spaceAround: {
     justifyContent: 'space-between',
   },
   favoriteButton: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
     width: 30,
     height: 30,
-    backgroundColor: 'purple',
     color: 'white',
     borderRadius: 25,
   },
+  isFavorite: {
+    backgroundColor: 'red',
+  },
+  isNotFavorite: {
+    backgroundColor: 'green',
+  },
   calificationIconContainer: {
-    padding: 5,
+    paddingLeft: 15,
+    paddingRight: 15,
     borderRadius: 15,
     backgroundColor: 'gold',
     position: 'absolute',
@@ -72,6 +90,26 @@ const styles = StyleSheet.create({
   },
   root: {
     marginBottom: 50,
+  },
+  iconItemIcon0: {
+    color: 'black',
+  },
+  iconItemText0: {
+    color: 'gray',
+  },
+  iconItemIcon1: {
+    color: 'gray',
+  },
+  iconItemText1: {
+    color: 'black',
+    fontWeight: 'bold',
+  },
+  iconItemIcon2: {
+    color: 'rgb(150, 40, 200)',
+  },
+  iconItemText2: {
+    color: 'gray',
+    fontWeight: 'bold',
   },
 });
 
